@@ -1,0 +1,92 @@
+/* Boot css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 2%;
+}
+
+/*  */
+
+header {
+    width: 100%;
+    height: 90px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    padding: 0 2%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    cursor: pointer;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #9B51E0;
+}
+
+span:nth-of-type(1) {color: #2F80ED}
+span:nth-of-type(2) {color: #EB5757}
+span:nth-of-type(3) {color: #F2C94C}
+span:nth-of-type(4) {color: #2F80ED}
+span:nth-of-type(5) {color: #219653}
+span:nth-of-type(6) {color: #EB5757}
+span:nth-of-type(7) {color: #F2C94C}
+span:nth-of-type(8) {color: #2F80ED}
+
+
+.box {
+    max-width: 50%;
+    margin: 30px 0;
+}
+
+.box h1 {
+    font-size: 18px;
+    color: #1a0dab;
+    font-weight: 400;
+}
+
+.box a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #006621;
+    text-decoration: none;
+    margin: 5px 0;
+    display: block;
+}
+
+.box p {
+    font-size: 13px;
+    font-weight: 400;
+    color: #545454;
+    line-height: 20px;
+}
+
+@media screen and (max-width: 640px) {
+    .box {
+        max-width: 70%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .box {
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .box {
+        max-width: 90%;
+    }
+}
